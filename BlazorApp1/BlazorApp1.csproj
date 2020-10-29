@@ -13,19 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Watch Include="**\*.razor;**\*.cs;**\*.html;**\*.cshtml" />
+    <Watch Include="**\*.razor;**\*.cs;**\*.html;**\*.cshtml;**\8.css" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\About.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Watch Remove="Pages\About.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\About.razor" />
-  </ItemGroup>
 
 </Project>

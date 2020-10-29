@@ -179,5 +179,13 @@ app {
     .sidebar .collapse {*/
         /* Never collapse the sidebar for wide screens */
         /*display: block;
-    }
-}*/
+    }*/
+
+
+        .footer{
+            height:5px;
+        }
+        #head{
+            background-image:url("../images/wo.jpg");
+            
+        }
